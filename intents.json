@@ -1,0 +1,334 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    
+
+
+    {
+      "tag": "shipping",
+      "patterns": [
+        "How long does shipping take?",
+        "What are your shipping options?",
+        "Do you offer international shipping?",
+        "How much does shipping cost?",
+        "Can I track my package?",
+        "Do you ship to P.O. boxes?",
+        "What if my package is lost or damaged?",
+        "Can I change my shipping address?"
+      ],
+      "responses": [
+        "Shipping times can vary depending on your location and the shipping method selected. Please refer to our website for estimated delivery times.",
+        "We offer several shipping options, including standard shipping and expedited shipping. The available options will be displayed during the checkout process.",
+        "Yes, we offer international shipping to select countries. During the checkout process, you can enter your address to check if your country is eligible for shipping.",
+        "Shipping costs depend on factors such as the weight of the package, destination, and shipping method. The final shipping cost will be calculated during checkout.",
+        "Yes, once your order is shipped, you will receive a tracking number via email. You can use this tracking number to track the progress of your package.",
+        "Yes, we do ship to P.O. boxes. During the checkout process, you can enter your P.O. box address as the shipping address.",
+        "In the rare event that your package is lost or damaged during shipping, please contact our customer support team for assistance and we will resolve the issue.",
+        "If your order hasn't been shipped yet, it may be possible to change your shipping address. Please contact our customer support team as soon as possible to make the request."
+      ]
+    },
+
+	{
+      "tag": "payment",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with a credit card?",
+        "Do you accept PayPal?",
+        "Are there any additional fees for using a specific payment method?",
+        "How do I request a refund?",
+        "Can I change my payment method after placing an order?",
+        "Is my payment information secure?",
+        "What should I do if my payment is declined?"
+      ],
+      "responses": [
+        "We accept major credit cards such as Visa, Mastercard, and American Express. Additionally, we also accept payments through PayPal.",
+        "Yes, you can pay with a credit card. During the checkout process, you will be prompted to enter your credit card details.",
+        "Yes, we accept PayPal as a payment option. You can select PayPal as your preferred payment method during the checkout process.",
+        "We do not charge any additional fees for using specific payment methods. The total amount you see during checkout is the final amount to be paid.",
+        "To request a refund, please contact our customer support team with your order details. They will guide you through the refund process.",
+        "Once an order is placed, it is usually not possible to change the payment method. If you have specific concerns, please contact our customer support team.",
+        "We take the security of your payment information seriously. We use secure encryption methods and comply with industry standards to protect your data.",
+        "If your payment is declined, please double-check the payment details you entered. You can also try using an alternative payment method or contact your bank for further assistance."
+      ]},
+
+	{
+      "tag": "account",
+      "patterns": [
+        "How do I create an account?",
+        "Can I use social media accounts to sign up?",
+        "What if I forgot my password?",
+        "How can I update my account information?",
+        "Can I have multiple accounts?",
+        "How do I delete my account?",
+        "Is my personal information safe?",
+        "How can I change my email address?"
+      ],
+      "responses": [
+        "To create an account, click on the 'Sign Up' button on our website and follow the instructions to provide the required information.",
+        "Yes, you can use your social media accounts such as Facebook or Google to sign up for an account. Look for the social media login options during the sign-up process.",
+        "If you forgot your password, you can click on the 'Forgot Password' link on the login page. Follow the instructions to reset your password.",
+        "To update your account information, log in to your account and navigate to the 'Account Settings' or 'Profile' section. From there, you can edit your details.",
+        "Generally, only one account per user is allowed. Multiple accounts may be subject to our terms and conditions. Please contact our support team for specific cases.",
+        "To delete your account, please contact our customer support team and provide them with the necessary details. They will guide you through the account deletion process.",
+        "We take the security of your personal information seriously. We have implemented measures to protect your data and comply with relevant privacy laws and regulations.",
+        "To change your email address, log in to your account and navigate to the 'Account Settings' or 'Profile' section. From there, you can update your email address."
+      ]
+    },
+
+	{
+      "tag": "return",
+      "patterns": [
+        "What is your return policy?",
+        "How do I return a product?",
+        "Can I exchange an item?",
+        "What if I received a defective product?",
+        "How long does it take to process a return?",
+        "Do I need the original packaging for a return?",
+        "Can I return an item without a receipt?",
+        "What if I received the wrong product?"
+      ],
+      "responses": [
+        "Our return policy allows for returns within 30 days of purchase. Please refer to our website for detailed instructions and requirements.",
+        "To return a product, please contact our customer support team or visit the 'Returns' section on our website. They will guide you through the return process.",
+        "In most cases, we offer exchanges for eligible items. Please reach out to our customer support team for assistance with the exchange process.",
+        "If you received a defective product, please contact our customer support team with details and photos of the defect. They will assist you in resolving the issue.",
+        "The time it takes to process a return can vary. Once we receive the returned item, we will process the refund or exchange as quickly as possible.",
+        "Having the original packaging is preferable, but it may not be a strict requirement for all returns. Please contact our customer support team for guidance.",
+        "Having a receipt or proof of purchase is helpful for faster processing, but our customer support team can assist you even if you don't have a receipt.",
+        "If you received the wrong product, please contact our customer support team with the order details. They will work to rectify the issue and arrange for a return if necessary."
+      ]
+    },
+
+	{
+      "tag": "technical",
+      "patterns": [
+        "I'm experiencing technical issues. What should I do?",
+        "How do I troubleshoot a software problem?",
+        "My device won't turn on. What should I try?",
+        "What are the system requirements for your software?",
+        "Can you help me with network connectivity issues?",
+        "How do I update my software?",
+        "What should I do if I forgot my password?",
+        "Is technical support available 24/7?",
+        "How can I contact technical support?"
+      ],
+      "responses": [
+        "If you're experiencing technical issues, try restarting your device and checking for any available updates. If the problem persists, please contact our technical support team.",
+        "To troubleshoot a software problem, you can try reinstalling the software, clearing cache and cookies, or contacting our technical support team for further assistance.",
+        "If your device won't turn on, ensure that it's properly charged or connected to a power source. You can also try performing a hard reset or contacting our technical support team.",
+        "The system requirements for our software can be found on our website or in the product documentation. Please check those resources for specific details.",
+        "For network connectivity issues, try restarting your router, checking your network settings, or contacting your internet service provider. If needed, our technical support team can assist you.",
+        "To update your software, check for available updates within the software's settings or preferences. You can also refer to our website or contact our technical support team for guidance.",
+        "If you forgot your password, you can click on the 'Forgot Password' link on the login page. Follow the instructions to reset your password.",
+        "Our technical support team is available during business hours, from Monday to Friday. Please check our website or contact us for specific support hours.",
+        "You can contact our technical support team through phone, email, or live chat. Visit our website's 'Support' section for the available contact options."
+      ]
+    },
+
+	{
+      "tag": "pricing",
+      "patterns": [
+        "How much does your product/service cost?",
+        "Are there any subscription fees?",
+        "Do you offer discounts for bulk orders?",
+        "Are there any hidden charges?",
+        "What payment plans do you offer?",
+        "Can I cancel my subscription at any time?",
+        "Is there a free trial available?",
+        "Do you price match with competitors?",
+        "Can I upgrade/downgrade my plan?"
+      ],
+      "responses": [
+        "The cost of our product/service may vary depending on the specific package or options you choose. Please visit our website or contact our sales team for detailed pricing information.",
+        "Yes, there may be subscription fees associated with certain plans or services. The details of the subscription fees can be found on our website or discussed with our sales team.",
+        "We offer discounts for bulk orders or specific packages. Please contact our sales team to discuss your requirements and available discount options.",
+        "We are transparent about our pricing, and there are no hidden charges. The total amount you see during checkout or in the pricing details is the final price to be paid.",
+        "We offer various payment plans, including monthly, yearly, or one-time payment options. The available plans can be found on our website or discussed with our sales team.",
+        "Yes, you can typically cancel your subscription at any time. Please refer to our cancellation policy or contact our customer support team for assistance with the cancellation process.",
+        "We may offer a free trial for our product/service. The details and availability of the free trial can be found on our website or discussed with our sales team.",
+        "We do not currently have a price matching policy with competitors. Our pricing is determined based on various factors, including the value we provide to our customers.",
+        "Yes, in most cases, you can upgrade or downgrade your plan. Please contact our sales team or refer to our website for information on plan changes and any associated fees."
+      ]
+    },
+{
+      "tag": "availability",
+      "patterns": [
+        "Is the product/service available in my country?",
+        "How long does it take to ship the product?",
+        "Do you offer international shipping?",
+        "Is the product currently in stock?",
+        "Can I pre-order a product that is out of stock?",
+        "Do you have a store near me?",
+        "What if the product/service I want is not available?",
+        "Are there any limitations on product/service availability?"
+      ],
+      "responses": [
+        "We offer worldwide availability for our product/service. Please check our website or contact our sales team to confirm if it is available in your country.",
+        "The shipping time for our product may vary depending on your location and the shipping method selected. Please refer to our website for estimated shipping times.",
+        "Yes, we offer international shipping. Additional shipping charges and customs fees may apply depending on your location. Please contact our sales team for more details.",
+        "To check the current stock status of a product, please visit our website or contact our sales team. They will provide you with the most up-to-date information.",
+        "In some cases, we may offer the option to pre-order a product that is currently out of stock. Please contact our sales team for details on pre-ordering.",
+        "We do not have physical stores, as we primarily operate online. However, our products/services can be purchased directly through our website.",
+        "If the product/service you want is not available, please contact our sales team or check our website for alternative options or similar products/services that may meet your needs.",
+        "While we strive to maintain product/service availability, there may be occasional limitations or restrictions. Please contact our sales team for specific information on availability limitations."
+      ]
+    },
+	
+	{
+      "tag": "customer_support",
+      "patterns": [
+        "How can I contact customer support?",
+        "What are your customer support hours?",
+        "How long does it take to get a response from customer support?",
+        "Do you offer phone support?",
+        "Can I track the status of my support ticket?",
+        "What if I'm not satisfied with the customer support?",
+        "Do you have a knowledge base or FAQs for self-help?",
+        "Can I provide feedback on the customer support experience?",
+        "Are there any charges for customer support?"
+      ],
+      "responses": [
+        "You can contact our customer support team through phone, email, or live chat. Visit our website's 'Contact Us' page for the available contact options.",
+        "Our customer support hours are from Monday to Friday, 9 AM to 6 PM. Please note that support hours may vary during holidays or special occasions.",
+        "We strive to respond to customer inquiries within 24-48 hours. However, response times may vary depending on the volume of requests and the complexity of the issue.",
+        "Yes, we offer phone support. You can find the contact number on our website's 'Contact Us' page. Please note that phone support may have specific operating hours.",
+        "If you have opened a support ticket, you can typically track its status by logging into your account on our website. The ticketing system will provide updates on the progress.",
+        "If you're not satisfied with the customer support received, please let us know. We value your feedback and will work to address your concerns and improve the support experience.",
+        "Yes, we have a knowledge base and FAQs section on our website. You can access self-help resources to find answers to common questions and troubleshooting guides.",
+        "We appreciate your feedback on the customer support experience. You can provide feedback through our website's contact form or by reaching out to our customer support team.",
+        "No, customer support is provided free of charge. We are here to assist you and resolve any issues or inquiries you may have without any additional fees."
+      ]
+    },
+
+{
+      "tag": "product_information",
+      "patterns": [
+        "What are the features of your product?",
+        "Can you provide specifications for your product?",
+        "What is the warranty period for your product?",
+        "Is there a user manual available for your product?",
+        "What materials are used in the construction of your product?",
+        "Is your product compatible with other devices?",
+        "Are there any recommended accessories for your product?",
+        "What is the expected lifespan of your product?",
+        "Do you offer any product demonstrations or trials?"
+      ],
+      "responses": [
+        "Our product comes with a range of features, including [list of features]. For detailed information, please refer to our website or product documentation.",
+        "The specifications of our product include [list of specifications]. You can find the complete specifications on our website or in the product documentation.",
+        "The warranty period for our product is [warranty period]. Please refer to our warranty policy for specific details on coverage and terms.",
+        "Yes, we provide a user manual along with the product. It contains instructions on how to use and maintain the product. The user manual is usually included in the product packaging.",
+        "Our product is constructed using high-quality materials such as [list of materials]. These materials are chosen for durability and performance.",
+        "Our product is compatible with a wide range of devices, including [list of compatible devices]. Please refer to our website or contact our support team for specific compatibility information.",
+        "We may have recommended accessories for our product, such as [list of accessories]. These accessories enhance the functionality or convenience of using our product.",
+        "The expected lifespan of our product depends on various factors, including usage, maintenance, and environmental conditions. On average, it can last [expected lifespan].",
+        "We offer product demonstrations and trials in certain cases. Please visit our website or contact our sales team for information on available demonstrations or trial options."
+      ]
+    },
+
+{
+      "tag": "privacy_policy",
+      "patterns": [
+        "What information do you collect from users?",
+        "How do you use the personal information collected?",
+        "Is my personal information secure?",
+        "Do you share user data with third parties?",
+        "What are my rights regarding my personal information?",
+        "Can I update or delete my personal information?",
+        "How long do you retain user data?",
+        "Do you use cookies or similar technologies?",
+        "Is your website compliant with data protection regulations?"
+      ],
+      "responses": [
+        "We collect limited personal information from users, such as name, email address, and contact details. The specifics of the collected information can be found in our privacy policy.",
+        "The personal information we collect is used for [purposes]. We strictly adhere to our privacy policy and applicable data protection laws when using user data.",
+        "We take the security of personal information seriously. We implement industry-standard security measures to protect user data from unauthorized access, loss, or misuse.",
+        "We do not share user data with third parties without explicit consent, unless required by law or as outlined in our privacy policy. Your privacy is important to us.",
+        "You have certain rights regarding your personal information, including the right to access, rectify, or delete your data. Please refer to our privacy policy for details on how to exercise these rights.",
+        "Yes, you can update or delete your personal information by [method]. Instructions on how to modify or remove your data can be found in our privacy policy.",
+        "We retain user data for as long as necessary to fulfill the purposes outlined in our privacy policy, unless a longer retention period is required or permitted by law.",
+        "Yes, we use cookies or similar technologies to enhance user experience and collect certain information. You can find detailed information on our use of cookies in our cookie policy.",
+        "Yes, our website is designed to comply with relevant data protection regulations, including [list of regulations]. We respect user privacy and handle personal information in accordance with applicable laws."
+      ]
+    }
+  ]
+}
